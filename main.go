@@ -38,7 +38,7 @@ func StartMessage() {
 		),
 		tgbotapi.NewKeyboardButtonRow(
 			tgbotapi.NewKeyboardButton("binaryToDecimal"),
-			tgbotapi.NewKeyboardButton("Еще не придумал2"),
+			tgbotapi.NewKeyboardButton("Дополнительно"),
 		),
 	)
 
@@ -131,7 +131,7 @@ func Factorial() {
 }
 
 func mem() {
-	sticker := tgbotapi.NewSticker(chatID, tgbotapi.FileID("CAACAgIAAxkBAAEMpqRmvg7RwF1B-pHRitEZoPck2aeNGgACER8AAjnnEUj9Az8zuJ9KpzUE"))
+	sticker := tgbotapi.NewSticker(chatID, tgbotapi.FileID("CAACAgIAAxkBAAEMpn5mvfOEhzxgDS6_lzGXB48kulcNswACIhMAAl1scEuuLYe9O-OAPjUE"))
 	bot.Send(sticker)
 }
 
@@ -203,7 +203,7 @@ func main() {
 		} else if update.Message != nil && update.Message.Text == "binaryToDecimal" {
 			chatID = update.Message.Chat.ID
 			binaryToDecimal()
-		} else if update.Message != nil && update.Message.Text == "Еще не придумал2" {
+		} else if update.Message != nil && update.Message.Text == "Дополнительно" {
 			chatID = update.Message.Chat.ID
 			mem()
 		}
