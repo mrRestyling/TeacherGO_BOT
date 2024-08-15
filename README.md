@@ -1,1 +1,1 @@
-# teacherGO_BOT
+# TeacherGO_BOT
