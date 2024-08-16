@@ -1,6 +1,6 @@
 # TeacherGO_BOT
 ## Telegram Bot для изучения языка программирования GO
-Пример:
+_Пример:_
 
 ![IMG_2357 (1)](https://github.com/user-attachments/assets/2fa176b7-8241-47a5-bc9c-a46883fa0a8a)
 
