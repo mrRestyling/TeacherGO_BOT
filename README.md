@@ -1,4 +1,4 @@
-# TeacherGO_BOT
+# TeacherGO_BOT.
 ## Telegram Bot для изучения языка программирования GO
 _Пример:_
 
